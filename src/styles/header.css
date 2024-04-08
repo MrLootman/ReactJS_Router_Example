@@ -6,9 +6,13 @@ header>nav {
   display: flex;
   gap: 16px;
   justify-content: end;
-}
 
-header>nav>a {
-  font-size: 32px;
-  cursor: pointer;
+  a {
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+  a[class="active"] {
+    color: yellow;
+  }
 }
